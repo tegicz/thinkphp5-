@@ -13,3 +13,4 @@ use think\Route;
 Route::resource('cate','admin/Cate');
 
 Route::get('/','index/index/index');
+Route::post('/','index/index/index');
